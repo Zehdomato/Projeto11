@@ -2,6 +2,15 @@ var path,boy, leftBoundary,rightBoundary;
 var pathImg,boyImg;
 var i;
 
+
+
+//BIANCA, ESSA ATIVIDADE EU NÃO CONSEGUI REALIZAR,
+
+
+
+
+
+
 function preload(){
   pathImg = loadImage("path.png");
   boyImg = loadAnimation("Runner-1.png","Runner-2.png");
@@ -57,7 +66,7 @@ function draw() {
 
    if(path.y > 400 ){
     path.y = width/2;
-  } */
+  } 
   
   drawSprites();
 }
